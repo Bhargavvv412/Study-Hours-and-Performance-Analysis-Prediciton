@@ -35,3 +35,34 @@ This dataset is about student achivement in secondary education of two portugues
 - G1: first period grade (numeric: from 0 to 20)
 - G2: second period grade (numeric: from 0 to 20)
 - G3: final grade (numeric: from 0 to 20, output target)
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Dataset Stat
+Age: Mostly between 15–18 years, only few older students (outliers at 22).
+
+Parental Education: Skewed toward 5th–9th grade (2) and higher education (4).
+
+Study Time: Median is 2 (2–5 hrs/week) → students generally study less.
+
+Failures: Majority students never failed, but some have up to 3 past failures.
+
+Alcohol Use:
+
+Workday consumption (Dalc) is low (mostly 1).
+
+Weekend consumption (Walc) is higher, average ≈ 2.3.
+
+Absences: Most students have low absences (0–6), but some extreme values up to 32 (possible outliers).
+
+Grades:
+
+Average grades ~ 11–12 (slightly above pass).
+
+G1, G2, and G3 are highly correlated (increasing trend across terms).
+
+### Acurracy
+LR Mean Squared Error MSE: 0.49855812588410026
+LR Root Mean Squared Error RMSE: 0.7060864861219908
+LR R^2 Score: 0.9113695477749233
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
